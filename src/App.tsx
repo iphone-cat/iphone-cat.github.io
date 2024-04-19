@@ -10,7 +10,7 @@ import Carousel from "./Carousel";
 const LinksSection = () => {
   return (
     <>
-      <div className="flex flex-wrap justify-center items-center space-x-8 bg-[#44403f] py-10">
+      <div className="flex flex-wrap justify-center items-center space-x-8 bg-[#1d1e23] py-10">
         <a
           href="https://t.me/purrresident_tremp"
           target="_blank"
@@ -95,9 +95,9 @@ function App() {
   };
 
   return (
-    <div className="bg-[#a68f778e]">
+    <div className="bg-[#57463a7b]">
       <Carousel />
-      <header className="text-gray-50 body-font bg-[#44403f]">
+      <header className="text-gray-50 body-font bg-[#1d1e23]">
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <div className="flex-col">
             <a
@@ -123,7 +123,7 @@ function App() {
             </a>
           </nav>
           <a href="https://pump.fun/" target="_blank">
-            <button className="inline-flex items-center bg-[#7d6555]  border-0 py-1 px-3 focus:outline-none hover:bg-[#7d6555b2] rounded text-lg mt-4 md:mt-0 text-white">
+            <button className="inline-flex items-center bg-[#2e2b26]  border-0 py-1 px-3 focus:outline-none hover:bg-[#2e2b26ad] rounded text-lg mt-4 md:mt-0 text-white">
               BUY $PTRMP
               <svg
                 fill="none"
@@ -160,7 +160,7 @@ function App() {
       </section>
       <LinksSection />
       <HowBuy />
-      <footer className="text-gray-600 body-font bg-[#44403f]">
+      <footer className="text-gray-600 body-font bg-[#1d1e23]">
         <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col justify-between">
           <div className="flex-1">
             <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">

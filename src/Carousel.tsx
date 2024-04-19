@@ -2,7 +2,7 @@ import fin from "./assets/carr.png";
 
 const Carousel = () => {
   return (
-    <div className="marquee__container py-2 w-full font-bold bg-[#44403f]">
+    <div className="marquee__container py-2 w-full font-bold bg-[#1d1e23]">
       <div className="marquee">
         <ul className="marquee__content text-white">
           <li>

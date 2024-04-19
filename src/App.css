@@ -1,0 +1,243 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: "5yearsoldfont";
+  src: local("5yearsoldfont"),
+    url("./assets/5yearsoldfont.ttf") format("truetype");
+  font-weight: normal;
+}
+
+body {
+  font-family: "5yearsoldfont", "Comic Sans MS", Good;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.marquee__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.marquee {
+  color: lightgrey;
+  overflow: hidden;
+}
+
+.marquee__content {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  animation: scrolling 25s linear infinite;
+}
+
+.marquee__content li {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-left: 2.5rem;
+}
+
+.marquee__content img {
+  height: 1.5rem;
+}
+
+@keyframes scrolling {
+  0% {
+    transform: translateX(-0vw);
+  }
+  100% {
+    transform: translateX(-160vw);
+  }
+}
+
+/*TABLET VERSION*/
+@media screen and (max-width: 1100px) {
+  .marquee__title {
+    font-size: 2.5rem;
+    padding: 0rem;
+  }
+
+  .marquee {
+    width: 95vw;
+    margin: 1rem 0;
+  }
+
+  .marquee__img {
+    width: 20vw;
+  }
+
+  @keyframes scrolling {
+    0% {
+      transform: translateX(-0vw);
+    }
+    100% {
+      transform: translateX(-200vw);
+    }
+  }
+}
+
+/*MOBILE VERSION*/
+@media screen and (max-width: 500px) {
+  .marquee__img {
+    width: 50vw;
+  }
+
+  .marquee__content {
+    animation: scrolling 25s linear infinite;
+  }
+
+  .marquee--invisible--mobile {
+    display: none !important;
+  }
+
+  @keyframes scrolling {
+    0% {
+      transform: translateX(-0vw);
+    }
+    100% {
+      transform: translateX(-760vw);
+    }
+  }
+}
+
+.fade-down {
+  opacity: 0;
+  transform: translateY(-50px); /* Start position above container */
+  animation: fadeDown 500ms ease forwards;
+}
+
+@keyframes fadeDown {
+  to {
+    opacity: 1;
+    transform: translateY(0); /* End position at the center of container */
+  }
+}

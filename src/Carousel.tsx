@@ -8,72 +8,72 @@ const Carousel = () => {
           <li>
             <img src={fin} />
           </li>
-          <li>Nab 'em by the meow-makers</li>
+          <li>Nab 'em by the meow-makers!</li>
           <li>
             <img src={fin} />
           </li>
-          <li>Nab 'em by the meow-makers</li>
+          <li>Nab 'em by the meow-makers!</li>
           <li>
             <img src={fin} />
           </li>
-          <li>Nab 'em by the meow-makers</li>
+          <li>Nab 'em by the meow-makers!</li>
           <li>
             <img src={fin} />
           </li>
-          <li>Nab 'em by the meow-makers</li>
+          <li>Nab 'em by the meow-makers!</li>
           <li>
             <img src={fin} />
           </li>
-          <li>Nab 'em by the meow-makers</li>
+          <li>Nab 'em by the meow-makers!</li>
           <li>
             <img src={fin} />
           </li>
-          <li>Nab 'em by the meow-makers</li>
+          <li>Nab 'em by the meow-makers!</li>
           <li>
             <img src={fin} />
           </li>
-          <li>Nab 'em by the meow-makers</li>
+          <li>Nab 'em by the meow-makers!</li>
           <li>
             <img src={fin} />
           </li>
-          <li>Nab 'em by the meow-makers</li>
+          <li>Nab 'em by the meow-makers!</li>
           <li>
             <img src={fin} />
           </li>
-          <li>Nab 'em by the meow-makers</li>
+          <li>Nab 'em by the meow-makers!</li>
           <li>
             <img src={fin} />
           </li>
-          <li>Nab 'em by the meow-makers</li>
+          <li>Nab 'em by the meow-makers!</li>
           <li>
             <img src={fin} />
           </li>
-          <li>Nab 'em by the meow-makers</li>
+          <li>Nab 'em by the meow-makers!</li>
           <li>
             <img src={fin} />
           </li>
-          <li>Nab 'em by the meow-makers</li>
-          <li>Nab 'em by the meow-makers</li>
+          <li>Nab 'em by the meow-makers!</li>
+          <li>Nab 'em by the meow-makers!</li>
           <li>
             <img src={fin} />
           </li>
-          <li>Nab 'em by the meow-makers</li>
+          <li>Nab 'em by the meow-makers!</li>
           <li>
             <img src={fin} />
           </li>
-          <li>Nab 'em by the meow-makers</li>
+          <li>Nab 'em by the meow-makers!</li>
           <li>
             <img src={fin} />
           </li>
-          <li>Nab 'em by the meow-makers</li>
+          <li>Nab 'em by the meow-makers!</li>
           <li>
             <img src={fin} />
           </li>
-          <li>Nab 'em by the meow-makers</li>
+          <li>Nab 'em by the meow-makers!</li>
           <li>
             <img src={fin} />
           </li>
-          <li>Nab 'em by the meow-makers</li>
+          <li>Nab 'em by the meow-makers!</li>
         </ul>
       </div>
     </div>

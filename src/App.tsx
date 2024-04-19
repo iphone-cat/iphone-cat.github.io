@@ -12,7 +12,7 @@ const LinksSection = () => {
     <>
       <div className="flex flex-wrap justify-center items-center space-x-8 bg-[#44403f] py-10">
         <a
-          href="https://t.me/iphone_cat"
+          href="https://t.me/purrresident_tremp"
           target="_blank"
           className="icon-link flex items-center justify-center mb-3 hover:opacity-75"
         >
@@ -22,7 +22,7 @@ const LinksSection = () => {
           <p className="font-bold text-2xl text-gray-50">Telegram</p>
         </a>
         <a
-          href="https://twitter.com/iphone_cat_sol"
+          href="https://twitter.com/PTremp_sol"
           target="_blank"
           className="icon-link flex items-center justify-center mb-3 hover:opacity-75"
         >
@@ -64,7 +64,7 @@ const HowBuy = () => {
               <br />
               <span className="text-2xl"> Get Some SOL</span>
               <br />
-              Have SOL in your wallet to switch to $KITTY. If you don't have any
+              Have SOL in your wallet to switch to $PTRMP. If you don't have any
               SOL, you can buy directly on Phantom, transfer from another
               wallet, or buy on another exchange and send it to your wallet.
               <br />

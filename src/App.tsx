@@ -12,7 +12,7 @@ const LinksSection = () => {
     <>
       <div className="flex flex-wrap justify-center items-center space-x-8 bg-[#44403f] py-10">
         <a
-          href="https://raydium.io/swap/?outputCurrency=4NzvSrKNwKXs4nJeb2SNhLnsZpcR8TRDM7w16GRRJZpc"
+          href="https://t.me/iphone_cat"
           target="_blank"
           className="icon-link flex items-center justify-center mb-3 hover:opacity-75"
         >
@@ -22,7 +22,7 @@ const LinksSection = () => {
           <p className="font-bold text-2xl text-gray-50">Telegram</p>
         </a>
         <a
-          href="https://raydium.io/swap/?outputCurrency=4NzvSrKNwKXs4nJeb2SNhLnsZpcR8TRDM7w16GRRJZpc"
+          href="https://twitter.com/iphone_cat_sol"
           target="_blank"
           className="icon-link flex items-center justify-center mb-3 hover:opacity-75"
         >

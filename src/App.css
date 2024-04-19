@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 html,
 body,
 div,
@@ -123,15 +124,8 @@ table {
   border-spacing: 0;
 }
 
-@font-face {
-  font-family: "5yearsoldfont";
-  src: local("5yearsoldfont"),
-    url("./assets/5yearsoldfont.ttf") format("truetype");
-  font-weight: normal;
-}
-
 body {
-  font-family: "5yearsoldfont", "Comic Sans MS", Good;
+  font-family: "Comic Neue", "Comic Sans MS", Good;
 }
 
 @tailwind base;
@@ -167,7 +161,7 @@ body {
 }
 
 .marquee__content img {
-  height: 1.5rem;
+  height: 4rem;
 }
 
 @keyframes scrolling {

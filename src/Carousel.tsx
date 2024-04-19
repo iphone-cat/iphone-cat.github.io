@@ -1,4 +1,4 @@
-import fin from "./assets/cat-paw.png";
+import fin from "./assets/carr.png";
 
 const Carousel = () => {
   return (
@@ -8,72 +8,72 @@ const Carousel = () => {
           <li>
             <img src={fin} />
           </li>
-          <li>Paw-sitively caught you in 4K!</li>
+          <li>Nab 'em by the meow-makers</li>
           <li>
             <img src={fin} />
           </li>
-          <li>Paw-sitively caught you in 4K!</li>
+          <li>Nab 'em by the meow-makers</li>
           <li>
             <img src={fin} />
           </li>
-          <li>Paw-sitively caught you in 4K!</li>
+          <li>Nab 'em by the meow-makers</li>
           <li>
             <img src={fin} />
           </li>
-          <li>Paw-sitively caught you in 4K!</li>
+          <li>Nab 'em by the meow-makers</li>
           <li>
             <img src={fin} />
           </li>
-          <li>Paw-sitively caught you in 4K!</li>
+          <li>Nab 'em by the meow-makers</li>
           <li>
             <img src={fin} />
           </li>
-          <li>Paw-sitively caught you in 4K!</li>
+          <li>Nab 'em by the meow-makers</li>
           <li>
             <img src={fin} />
           </li>
-          <li>Paw-sitively caught you in 4K!</li>
+          <li>Nab 'em by the meow-makers</li>
           <li>
             <img src={fin} />
           </li>
-          <li>Paw-sitively caught you in 4K!</li>
+          <li>Nab 'em by the meow-makers</li>
           <li>
             <img src={fin} />
           </li>
-          <li>Paw-sitively caught you in 4K!</li>
+          <li>Nab 'em by the meow-makers</li>
           <li>
             <img src={fin} />
           </li>
-          <li>Paw-sitively caught you in 4K!</li>
+          <li>Nab 'em by the meow-makers</li>
           <li>
             <img src={fin} />
           </li>
-          <li>Paw-sitively caught you in 4K!</li>
+          <li>Nab 'em by the meow-makers</li>
           <li>
             <img src={fin} />
           </li>
-          <li>Paw-sitively caught you in 4K!</li>
-          <li>Paw-sitively caught you in 4K!</li>
+          <li>Nab 'em by the meow-makers</li>
+          <li>Nab 'em by the meow-makers</li>
           <li>
             <img src={fin} />
           </li>
-          <li>Paw-sitively caught you in 4K!</li>
+          <li>Nab 'em by the meow-makers</li>
           <li>
             <img src={fin} />
           </li>
-          <li>Paw-sitively caught you in 4K!</li>
+          <li>Nab 'em by the meow-makers</li>
           <li>
             <img src={fin} />
           </li>
-          <li>Paw-sitively caught you in 4K!</li>
+          <li>Nab 'em by the meow-makers</li>
           <li>
             <img src={fin} />
           </li>
-          <li>Paw-sitively caught you in 4K!</li>
+          <li>Nab 'em by the meow-makers</li>
           <li>
             <img src={fin} />
           </li>
-          <li>Paw-sitively caught you in 4K!</li>
+          <li>Nab 'em by the meow-makers</li>
         </ul>
       </div>
     </div>

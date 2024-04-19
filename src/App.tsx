@@ -1,10 +1,10 @@
 import "./App.css";
-import kittyPfp from "./assets/mewpfp.jpg";
+import kittyPfp from "./assets/owgx2hjml6ca1.jpg";
 
 import twitter from "./assets/twitter.webp";
 import telegram from "./assets/telegram.webp";
 
-import memebuy from "./assets/me.png";
+import memebuy from "./assets/me-2.png";
 import Carousel from "./Carousel";
 
 const LinksSection = () => {
@@ -109,7 +109,7 @@ function App() {
                 className="rounded-full h-12"
                 alt="kitty icon"
               />
-              <span className="text-xl ml-3">Iphone Cat</span>
+              <span className="text-xl ml-3">Purrresident Tremp</span>
             </a>
           </div>
 
@@ -124,7 +124,7 @@ function App() {
           </nav>
           <a href="https://pump.fun/" target="_blank">
             <button className="inline-flex items-center bg-[#7d6555]  border-0 py-1 px-3 focus:outline-none hover:bg-[#7d6555b2] rounded text-lg mt-4 md:mt-0 text-white">
-              BUY $ICAT
+              BUY $PTRMP
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -149,11 +149,11 @@ function App() {
             src={kittyPfp}
           />
           <div className="text-center lg:w-2/3 w-full">
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 text-green-950 font-bold fade-down">
-              $ICAT
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 text-gray-950 font-bold fade-down">
+              $PTRMP
             </h1>
             <p className="mt-5 leading-relaxed text-xl fade-down">
-              Paw-sitively caught you in 4K!
+              Nab 'em by the meow-makers!
             </p>
           </div>
         </div>
@@ -168,7 +168,7 @@ function App() {
                 src={kittyPfp}
                 className="w-16 h-16 text-white p-2 rounded-full"
               />
-              <span className="ml-3 text-xl text-gray-50">Iphone Cat</span>
+              <span className="ml-3 text-xl text-gray-50">Purrresident Tremp</span>
             </a>
           </div>
         </div>

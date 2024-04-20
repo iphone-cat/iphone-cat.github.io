@@ -1,16 +1,16 @@
 import "./App.css";
-import kittyPfp from "./assets/owgx2hjml6ca1.jpg";
+import kittyPfp from "./assets/updated-img.png";
 
 import twitter from "./assets/twitter.webp";
 import telegram from "./assets/telegram.webp";
 
-import memebuy from "./assets/me-2.png";
+import memebuy from "./assets/meme.jpg";
 import Carousel from "./Carousel";
 
 const LinksSection = () => {
   return (
     <>
-      <div className="flex flex-wrap justify-center items-center space-x-8 bg-[#1d1e23] py-10">
+      <div className="flex flex-wrap justify-center items-center space-x-8 bg-[#252324] py-10">
         <a
           href="https://t.me/purrresident_tremp"
           target="_blank"
@@ -22,7 +22,7 @@ const LinksSection = () => {
           <p className="font-bold text-2xl text-gray-50">Telegram</p>
         </a>
         <a
-          href="https://twitter.com/PTremp_sol"
+          href="https://twitter.com/police_dog_sol"
           target="_blank"
           className="icon-link flex items-center justify-center mb-3 hover:opacity-75"
         >
@@ -64,7 +64,7 @@ const HowBuy = () => {
               <br />
               <span className="text-2xl"> Get Some SOL</span>
               <br />
-              Have SOL in your wallet to switch to $PTRMP. If you don't have any
+              Have SOL in your wallet to switch to $PDOG. If you don't have any
               SOL, you can buy directly on Phantom, transfer from another
               wallet, or buy on another exchange and send it to your wallet.
               <br />
@@ -95,9 +95,9 @@ function App() {
   };
 
   return (
-    <div className="bg-[#57463a7b]">
+    <div className="bg-[#CBBDAB]">
       <Carousel />
-      <header className="text-gray-50 body-font bg-[#1d1e23]">
+      <header className="text-gray-50 body-font bg-[#252324]">
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <div className="flex-col">
             <a
@@ -109,7 +109,7 @@ function App() {
                 className="rounded-full h-12"
                 alt="kitty icon"
               />
-              <span className="text-xl ml-3">Purrresident Tremp</span>
+              <span className="text-xl ml-3">Police Dog</span>
             </a>
           </div>
 
@@ -123,8 +123,8 @@ function App() {
             </a>
           </nav>
           <a href="https://pump.fun/" target="_blank">
-            <button className="inline-flex items-center bg-[#2e2b26]  border-0 py-1 px-3 focus:outline-none hover:bg-[#2e2b26ad] rounded text-lg mt-4 md:mt-0 text-white">
-              BUY $PTRMP
+            <button className="inline-flex items-center bg-[#97703F]  border-0 py-1 px-3 focus:outline-none hover:bg-[#97703fcf] rounded text-lg mt-4 md:mt-0 text-white">
+              BUY $PDOG
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -141,7 +141,7 @@ function App() {
         </div>
       </header>
 
-      <section className="text-gray-600 body-font">
+      <section className="text-[#754E3D] body-font">
         <div className="container mx-auto flex px-5 py-14 items-center justify-center flex-col">
           <img
             className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded shadow-xl fade-down"
@@ -150,17 +150,18 @@ function App() {
           />
           <div className="text-center lg:w-2/3 w-full">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 text-gray-950 font-bold fade-down">
-              $PTRMP
+              $PDOG
             </h1>
             <p className="mt-5 leading-relaxed text-xl fade-down">
-              Nab 'em by the meow-makers!
+              It's just a dog in a police costume. The most handsome dog on
+              Solana.
             </p>
           </div>
         </div>
       </section>
       <LinksSection />
       <HowBuy />
-      <footer className="text-gray-600 body-font bg-[#1d1e23]">
+      <footer className="text-gray-600 body-font bg-[#252324]">
         <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col justify-between">
           <div className="flex-1">
             <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
@@ -168,7 +169,7 @@ function App() {
                 src={kittyPfp}
                 className="w-16 h-16 text-white p-2 rounded-full"
               />
-              <span className="ml-3 text-xl text-gray-50">Purrresident Tremp</span>
+              <span className="ml-3 text-xl text-gray-50">Police Dog</span>
             </a>
           </div>
         </div>

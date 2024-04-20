@@ -161,7 +161,7 @@ body {
 }
 
 .marquee__content img {
-  height: 4rem;
+  height: 2rem;
 }
 
 @keyframes scrolling {

@@ -12,7 +12,7 @@ const LinksSection = () => {
     <>
       <div className="flex flex-wrap justify-center items-center space-x-8 bg-[#252324] py-10">
         <a
-          href="https://t.me/purrresident_tremp"
+          href="https://t.me/police_dog_sol"
           target="_blank"
           className="icon-link flex items-center justify-center mb-3 hover:opacity-75"
         >
